@@ -55,4 +55,3 @@ plt.scatter(train_scaled[indexs, 0], train_scaled[indexs, 1], marker="D")
 plt.xlabel("length")
 plt.ylabel("weight")
 plt.show()
-
