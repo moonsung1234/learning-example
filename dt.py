@@ -5,6 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.tree import plot_tree
 import matplotlib.pyplot as plt
 import pandas as pd
+import numpy as np
 
 wine_data = pd.read_csv("https://bit.ly/wine-date")
 x_all = wine_data[["alcohol", "sugar", "pH"]].to_numpy()
