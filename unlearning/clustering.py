@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 fruits = np.load("fruits.npy")
 
-fig, axs = plt.subplots(1, 3, figsize=(20, 5))
+# fig, axs = plt.subplots(1, 3, figsize=(20, 5))
 # axs[0].imshow(fruits[0], cmap="gray_r")
 # axs[1].imshow(fruits[100], cmap="gray_r")
 # axs[2].imshow(fruits[200], cmap="gray_r")
