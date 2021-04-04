@@ -38,7 +38,7 @@ def draw(arr, ratio=1) :
 
 # print(km.transform(fruits_2d[100:101]))
 # print(km.predict(fruits_2d[100:101]))
-# draw(fruits[100:101])
+# draw(fruits[100:101], ratio=3)
 # print(km.n_iter_)
 
 # 옐보우 방법
