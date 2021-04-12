@@ -13,7 +13,7 @@ dense2 = keras.layers.Dense(10, activation="softmax")
 
 model = keras.Sequential([flatten, dense1, dense2])
 model.summary()
-model.compile(loss="sparse_categorical_crossentropy", metrics="accuracy")
+model.compile(optimizer="adam", loss="sparse_categorical_crossentropy", metrics="accuracy")
 model.fit(train_scaled, train_target, epochs=5)
 model.evaluate(val_scaled, val_target)
 
