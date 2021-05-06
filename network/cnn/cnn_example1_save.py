@@ -2,7 +2,7 @@
 from tensorflow import keras
 import matplotlib.pyplot as plt
 
-model = keras.models.load_model("best-cnn1.h5")
+model = keras.models.load_model("best_cnn1.h5")
 conv_weights = model.layers[0].weights[0].numpy()
 
 plt.hist(conv_weights.reshape(-1, 1))
